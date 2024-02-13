@@ -1,15 +1,16 @@
 import React from "react";
 import Logo from '../../images/logo.svg';
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import './navigation.css';
 
 function Navigation({ isLoggedIn }) {
+  const navigate = useNavigate();
 
   return (
     <nav className='navigation'>
       <ul className='navigation__list'>
         <div className='navigation__list_left'>
-          <img className='navigation__logo' src={Logo} />
+          <img className='navigation__logo' src={Logo} onClick={() => navigate('/')} />
           {
             isLoggedIn && (
               <>
