@@ -50,7 +50,7 @@
 .search-form__icon {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 5px;
   width: 32px;
   height: 32px;
   background-image: url(../../../images/search-icon.svg);
@@ -97,4 +97,10 @@
 
 .search-form__checkbox::before:checked {
   background-image: url(../../../images/checkbox-checked.svg);
+}
+
+.search-form__text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
 }

@@ -43,6 +43,7 @@
 }
 
 .navigation__logo {
+  cursor: pointer;
   margin-left: 70px;
 }
 

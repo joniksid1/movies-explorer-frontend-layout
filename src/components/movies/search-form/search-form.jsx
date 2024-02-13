@@ -21,11 +21,12 @@ function SearchForm() {
         </div>
         <div className='search-form__input-container search-form__input-container_type_checkbox'>
           <input
-            name='short-fims'
+            id='short-films-checkbox'
+            name='short-films'
             type='checkbox'
             className='search-form__checkbox'
           />
-          <label className='search-form__text'>
+          <label htmlFor='short-films-checkbox' className='search-form__text'>
             Короткометражки
           </label>
         </div>
