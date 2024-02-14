@@ -1,5 +1,6 @@
 import React from 'react';
 import './search-form.css';
+import FilterCheckbox from './filter-checkbox/filter-checkbox';
 
 function SearchForm() {
 
@@ -19,20 +20,10 @@ function SearchForm() {
             className='search-form__button'
           />
         </div>
-        <div className='search-form__input-container search-form__input-container_type_checkbox'>
-          <input
-            id='short-films-checkbox'
-            name='short-films'
-            type='checkbox'
-            className='search-form__checkbox'
-          />
-          <label htmlFor='short-films-checkbox' className='search-form__text'>
-            Короткометражки
-          </label>
-        </div>
+        <FilterCheckbox/>
       </form>
     </section>
   );
 }
 
-export default SearchForm
+export default SearchForm;

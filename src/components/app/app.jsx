@@ -21,9 +21,9 @@ function App() {
       <Routes>
         <Route path={'/'} element={<Main />} />
         <Route path={'/movies'} element={<Movies/>} />
-        {/* <Route path={'/saved-movies'} element={<SavedMovies/>} /> */}
+        <Route path={'/saved-movies'} element={<SavedMovies/>} />
         {/* <Route path={'/profile'} element={<Profile/>} /> */}
-        {/* <Route path={'/sign-in'} element={<Login/>} /> */}
+        <Route path={'/sign-in'} element={<Login/>} />
         {/* <Route path={'/sign-up'} element={<Register/>} /> */}
       </Routes>
       {isLoggedIn && <Footer />}

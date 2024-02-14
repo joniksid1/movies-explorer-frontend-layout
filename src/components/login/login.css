@@ -1,0 +1,147 @@
+.register {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register__wrapper {
+  max-width: 396px;
+}
+
+.register__wrapper_type_button {
+  margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register__wrapper_type_input {
+  margin-top: 20px;
+  min-height: 30px;
+}
+
+.register__wrapper_type_input:first-of-type {
+  margin-top: 40px;
+}
+
+.register__title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  margin-top: 40px;
+}
+
+.register__label {
+  margin-top: 20px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
+  color: #A0A0A0;
+}
+
+.register__caption {
+  margin: 0;
+  color: #A0A0A0;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+.register__input {
+  box-sizing: border-box;
+  padding: 0 15px;
+  margin-top: 10px;
+  border: 0;
+  outline: 0;
+  background-color: #F9F9F9;
+  color: #000;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  width: 100%;
+  height: 46px;
+  border-radius: 8px;
+}
+
+.register__input:focus {
+  border: 0;
+  outline: 2px solid rgba(255, 255, 255, .5);
+}
+
+.register__button {
+  padding: 0;
+  width: 396px;
+  height: 50px;
+  border: none;
+  border-radius: 3px;
+  background-color: #FF6838;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  transition: opacity .3s;
+  cursor: pointer;
+}
+
+.register__button:hover {
+  opacity: .85;
+}
+
+.register__button:disabled {
+  background: transparent;
+  color: rgba(255, 255, 255, .5);
+  border: 1px solid rgba(255, 255, 255, .5);
+}
+
+.register__input-error {
+  color: rgba(255, 25, 0, .7);
+  font-size: 12px;
+  line-height: normal;
+}
+
+.register__input_error-frame {
+  border-color: rgba(255, 25, 0, .7);
+}
+
+.register__input_error-frame:focus {
+  border: 0;
+  outline-color: rgba(255, 25, 0, .7);
+}
+
+.register__link {
+  color: #FF6838;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+
+.register__link:hover {
+  opacity: .6;
+}
+
+@media screen and (max-width: 640px) {
+  .register__wrapper {
+    max-width: 260px;
+  }
+
+  .register__wrapper_type_button {
+    margin-top: 140px;
+  }
+
+  .register__wrapper_type_input {
+    margin-top: 40px;
+    min-height: 85px;
+  }
+
+  .register__title {
+    font-size: 20px;
+  }
+
+  .register__button {
+    width: 260px;
+    font-size: 16px;
+  }
+}
