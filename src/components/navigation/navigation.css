@@ -43,6 +43,7 @@
 }
 
 .navigation__logo {
+  display: block;
   cursor: pointer;
   margin-left: 70px;
 }
@@ -51,11 +52,15 @@
   margin: 0;
 }
 
+.navigation__logo:hover {
+  opacity: .7;
+}
+
 .navigation__link {
+  color: inherit;
   text-decoration: none;
   font-size: 13px;
   line-height: 18px;
-  color: #FFF;
 }
 
 .navigation__link:hover {

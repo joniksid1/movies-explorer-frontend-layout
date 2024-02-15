@@ -14,7 +14,7 @@ function SearchForm() {
             placeholder='Фильм'
             className='search-form__input'
           />
-          <laebel className='search-form__icon' />
+          <label className='search-form__icon' />
           <button
             type='submit'
             className='search-form__button'

@@ -54,7 +54,7 @@ function Navigation({ isLoggedIn }) {
                 <div className='navigation__list_wrapper navigation__list_wrapper_not-authed'>
                   <li className='navigation__list_item'>
                     <Link
-                      to={'/signup'}
+                      to={'/sign-up'}
                       className='navigation__link navigation__link_signup'
                     >
                       Регистрация
@@ -62,7 +62,7 @@ function Navigation({ isLoggedIn }) {
                   </li>
                   <li className='navigation__list_item'>
                     <Link
-                      to={'/signin'}
+                      to={'/sign-in'}
                       className='navigation__link navigation__link_signin'
                     >
                       Войти

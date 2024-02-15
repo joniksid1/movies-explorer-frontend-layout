@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { Route, Routes, useNavigate } from "react-router-dom";
+import { Route, Routes, useNavigate, useLocation } from "react-router-dom";
 import './app.css';
 import Header from '../header/header';
 import Main from '../main/main';
@@ -9,24 +9,30 @@ import Profile from '../profile/profile';
 import Login from '../login/login';
 import Register from '../register/register';
 import Footer from '../footer/footer';
+import NotFound from '../not-found/not-found';
 
 function App() {
+  const location = useLocation();
   const navigate = useNavigate();
   const navigateRef = useRef(navigate);
   const [isLoggedIn, setIsLoggedIn] = useState(true);
 
+  const isHeaderVisible = ['/','/movies','/saved-movies','/profile'].includes(location.pathname);
+  const isFooterVisible = ['/', '/movies','/saved-movies'].includes(location.pathname);
+
   return (
     <>
-      <Header isLoggedIn={isLoggedIn} />
+      {isHeaderVisible && <Header isLoggedIn={isLoggedIn} />}
       <Routes>
         <Route path={'/'} element={<Main />} />
         <Route path={'/movies'} element={<Movies/>} />
         <Route path={'/saved-movies'} element={<SavedMovies/>} />
-        {/* <Route path={'/profile'} element={<Profile/>} /> */}
+        <Route path={'/profile'} element={<Profile/>} />
         <Route path={'/sign-in'} element={<Login/>} />
-        {/* <Route path={'/sign-up'} element={<Register/>} /> */}
+        <Route path={'/sign-up'} element={<Register/>} />
+        <Route path={'*'} element={<NotFound />} />
       </Routes>
-      {isLoggedIn && <Footer />}
+      {isFooterVisible && <Footer />}
     </>
   );
 }
