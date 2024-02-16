@@ -73,3 +73,29 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 1279px) {
+  .about-project {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 90px;
+  }
+
+  .about-project__two-columns {
+    gap: 25px;
+  }
+
+  .about-project__text {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 22px;
+  }
+
+  .about-project__timer {
+    margin-top: 23px;
+  }
+
+  .about-project__timer-text {
+    margin-bottom: 90px;
+  }
+}

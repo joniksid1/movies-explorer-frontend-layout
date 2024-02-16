@@ -15,7 +15,7 @@ function App() {
   const location = useLocation();
   const navigate = useNavigate();
   const navigateRef = useRef(navigate);
-  const [isLoggedIn, setIsLoggedIn] = useState(true);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const isHeaderVisible = ['/','/movies','/saved-movies','/profile'].includes(location.pathname);
   const isFooterVisible = ['/', '/movies','/saved-movies'].includes(location.pathname);

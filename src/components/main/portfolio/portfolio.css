@@ -59,3 +59,29 @@
   line-height: 60px;
   letter-spacing: -0.04em;
 }
+
+@media screen and (max-width: 1279px) {
+  .portfolio {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 90px;
+  }
+
+  .portfolio__list {
+    margin-top: 25px;
+  }
+
+  .portfolio__list_item {
+    margin-top: 10px;
+  }
+
+  .portfolio__text {
+    font-size: 28px;
+    line-height: 50px;
+  }
+
+  .portfolio__arrow {
+    font-size: 28px;
+    line-height: 60px;
+  }
+}
