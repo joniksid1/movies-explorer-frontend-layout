@@ -52,6 +52,7 @@
   color: #A0A0A0;
   font-size: 14px;
   font-weight: 400;
+  line-height: 17px;
   margin-top: 16px;
 }
 
@@ -126,26 +127,27 @@
   opacity: .6;
 }
 
-@media screen and (max-width: 640px) {
-  .register__wrapper {
-    max-width: 260px;
-  }
-
-  .register__wrapper_type_button {
-    margin-top: 140px;
-  }
-
-  .register__wrapper_type_input {
-    margin-top: 40px;
-    min-height: 85px;
+@media screen and (max-width: 1279px) {
+  .register {
+    margin-top: 232px;
+    margin-bottom: 232px;
   }
 
   .register__title {
-    font-size: 20px;
+    font-weight: 400;
   }
 
-  .register__button {
-    width: 260px;
-    font-size: 16px;
+  .register__wrapper_type_input {
+    margin-top: 20px;
+    min-height: 30px;
   }
+
+  .register__input {
+    margin-top: 5px;
+  }
+
+  .register__wrapper_type_register {
+    margin-top: 92px;
+  }
+
 }

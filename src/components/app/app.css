@@ -48,3 +48,17 @@
   }
 
 }
+
+@media screen and (max-width: 767px) {
+  .title {
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: -0.04em;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 28px;
+  }
+}

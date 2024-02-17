@@ -34,3 +34,11 @@
 .not-found__link:hover {
   opacity: .7;
 }
+
+@media screen and (max-width: 1279px) {
+  .not-found {
+    margin-top: 408px;
+    margin-bottom: 222px;
+  }
+
+}

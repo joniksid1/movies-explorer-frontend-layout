@@ -117,6 +117,11 @@
   .navigation__logo {
     margin-left: 30px;
   }
+
+  .navigation__logo_type_register {
+    margin: 0;
+  }
+
   .navigation__link_signin {
     margin-right: 30px;
   }

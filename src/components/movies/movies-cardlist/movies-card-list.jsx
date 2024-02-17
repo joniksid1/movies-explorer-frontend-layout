@@ -13,9 +13,11 @@ function MoviesCardList() {
         <MoviesCard></MoviesCard>
         <MoviesCard></MoviesCard>
         <MoviesCard></MoviesCard>
+        {/* <MoviesCard></MoviesCard>
         <MoviesCard></MoviesCard>
         <MoviesCard></MoviesCard>
         <MoviesCard></MoviesCard>
+        <MoviesCard></MoviesCard> */}
       </ul>
       {isMovies ? (
       <div className='movies-card-list__more'>

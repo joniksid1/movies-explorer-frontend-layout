@@ -79,7 +79,6 @@
 
   .about-me__subtitle {
     margin-top: 16px;
-    font-family: Inter;
     font-size: 12px;
     line-height: 18px;
   }
@@ -98,5 +97,52 @@
   .about-me__link {
     margin: 0;
     margin-top: 87px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about-me {
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+
+  .about-me__container {
+    flex-direction: column-reverse;
+    margin-top: 60px;
+  }
+
+  .about-me__text-wrapper {
+    max-width: 292px;
+  }
+
+  .about-me__title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .about-me__subtitle {
+    font-size: 11px;
+    line-height: 16px;
+    margin-top: 20px;
+  }
+
+  .about-me__text-wrapper {
+    margin-top: 40px;
+  }
+
+  .about-me__text {
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .about-me__avatar {
+    width: 292px;
+    height: 352px;
+  }
+
+  .about-me__link {
+    margin-top: 40px;
   }
 }

@@ -69,7 +69,6 @@
 
   .techs__text {
     margin-top: 22px;
-    font-family: Inter;
     font-size: 12px;
     line-height: 18px;
   }
@@ -85,4 +84,34 @@
     width: 84px;
     height: 57px;
   }
+}
+
+@media screen and (max-width: 767px) {
+  .techs {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 70px;
+    background-color: #FFF;
+  }
+
+  .techs__title {
+    margin-top: 60px;
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .techs__text {
+    margin-top: 24px;
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .techs__list {
+    max-width: 178px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
 }
