@@ -1,5 +1,5 @@
-import React, { useRef, useState } from 'react';
-import { Route, Routes, useNavigate, useLocation } from "react-router-dom";
+import React, { useState } from 'react';
+import { Route, Routes, useLocation } from "react-router-dom";
 import './app.css';
 import Header from '../header/header';
 import Main from '../main/main';
@@ -13,9 +13,7 @@ import NotFound from '../not-found/not-found';
 
 function App() {
   const location = useLocation();
-  const navigate = useNavigate();
-  const navigateRef = useRef(navigate);
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(true);
 
   const isHeaderVisible = ['/','/movies','/saved-movies','/profile'].includes(location.pathname);
   const isFooterVisible = ['/', '/movies','/saved-movies'].includes(location.pathname);

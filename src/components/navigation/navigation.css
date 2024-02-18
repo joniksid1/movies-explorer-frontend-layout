@@ -126,3 +126,22 @@
     margin-right: 30px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .navigation__logo {
+    margin-left: 14px;
+  }
+
+  .navigation__link_signin {
+    margin-right: 14px;
+    margin-left: 0;
+    width: 54px;
+    height: 26px;
+    font-size: 10px;
+  }
+
+  .navigation__link_signup {
+    font-size: 10px;
+  }
+
+}

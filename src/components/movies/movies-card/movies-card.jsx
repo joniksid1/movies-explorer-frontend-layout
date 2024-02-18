@@ -15,6 +15,7 @@ function MoviesCard() {
         />
         <img
           src={movie}
+          alt='Промо-изображение фильма'
           className='movies-card__image'
         />
       </div>

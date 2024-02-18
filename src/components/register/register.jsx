@@ -30,7 +30,7 @@ const Login = ({ onRegister }) => {
   return (
     <div className='register'>
       <form className='register__form' name='login' noValidate>
-        <img className='navigation__logo navigation__logo_type_register' src={Logo} onClick={() => navigate('/')} />
+        <img className='navigation__logo navigation__logo_type_register' src={Logo} alt='Логотип' onClick={() => navigate('/')} />
         <h1 className='register__title'>Добро пожаловать!</h1>
         <div className="register__wrapper register__wrapper_type_input">
           <label className='register__label'>
