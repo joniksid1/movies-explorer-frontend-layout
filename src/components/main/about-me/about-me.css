@@ -110,6 +110,7 @@
 
   .about-me__container {
     flex-direction: column-reverse;
+    align-items: center;
     margin-top: 60px;
   }
 

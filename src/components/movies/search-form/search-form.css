@@ -88,3 +88,30 @@
   }
 
 }
+
+@media screen and (max-width: 767px) {
+  .search-form {
+    margin-top: 100px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  .search-form__input-container_type_checkbox {
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+
+  .search-form__icon {
+    display: none;
+  }
+
+  .search-form__input {
+    text-align: left;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .search-form__button {
+    top: -8px;
+  }
+}

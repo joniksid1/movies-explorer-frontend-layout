@@ -12,10 +12,10 @@ function MoviesCardList() {
       <ul className='movies-card-list__list'>
         <MoviesCard></MoviesCard>
         <MoviesCard></MoviesCard>
-        <MoviesCard></MoviesCard>
         {/* <MoviesCard></MoviesCard>
         <MoviesCard></MoviesCard>
-        <MoviesCard></MoviesCard>
+        <MoviesCard></MoviesCard> */}
+        {/* <MoviesCard></MoviesCard>
         <MoviesCard></MoviesCard>
         <MoviesCard></MoviesCard> */}
       </ul>

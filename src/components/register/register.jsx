@@ -1,5 +1,4 @@
 import React from 'react';
-import '../login/login.css';
 import './register.css'
 import Logo from '../../images/logo.svg';
 import { Link, useNavigate } from 'react-router-dom';
@@ -43,7 +42,7 @@ const Login = ({ onRegister }) => {
             className="register__input register__input_type_name"
             required="true"
             value={nameValue ?? ''}
-            onChange={handleEmailChange}
+            onChange={handleNameChange}
           />
           <span
             className="register__input-error register__input-error_type_email"

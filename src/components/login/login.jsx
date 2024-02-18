@@ -1,5 +1,4 @@
 import React from 'react';
-import './login.css';
 import Logo from '../../images/logo.svg';
 import { Link, useNavigate } from 'react-router-dom';
 
